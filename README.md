@@ -36,3 +36,15 @@ LLM(Google Gemini)의 추론 능력과 Naver Shopping API를 결합하여, **Con
 
 3.  **Cross-Platform Support**
     - PC 웹 환경은 물론, **모바일 환경**에서도 완벽하게 작동하는 반응형 디자인(Responsive Design)을 적용했습니다.
+
+## 📦 Installation & Run
+
+```bash
+# 1. Clone the repository
+git clone [https://github.com/YOUR_ID/ai-shopping-agent.git](https://github.com/YOUR_ID/ai-shopping-agent.git)
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Run the application
+streamlit run app_naver.py
