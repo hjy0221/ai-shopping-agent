@@ -19,8 +19,8 @@ LLM(Google Gemini)의 추론 능력과 Naver Shopping API를 결합하여, **Con
 
 ## ⚙️ Tech Stack
 
-- **Core Logic:** `Python 3.10+`
-- **LLM:** `Google Gemini Pro (gemini-1.5-flash)` - Query Analysis & Reasoning
+- **Core Logic:** `Python `
+- **LLM:** `Google Gemini ` - Query Analysis & Reasoning
 - **Data Source:** `Naver Shopping API` - Real-time Product Data
 - **Web Framework:** `Streamlit` - Interactive Web UI & Deployment
 
