@@ -4,7 +4,7 @@ import requests
 import json
 import re
 
-# --- 1. 페이지 설정 (PC 화면용) ---
+# --- 1. 페이지 설정  ---
 st.set_page_config(
     page_title="네이버 AI 쇼핑 (PC Ver)",
     layout="wide",
