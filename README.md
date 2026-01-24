@@ -41,7 +41,7 @@ LLM(Google Gemini)의 추론 능력과 Naver Shopping API를 결합하여, **Con
 
 ```bash
 # 1. Clone the repository
-git clone [https://github.com/YOUR_ID/ai-shopping-agent.git](https://github.com/YOUR_ID/ai-shopping-agent.git)
+git clone https://github.com/hjy0221/ai-shopping-agent.git
 
 # 2. Install dependencies
 pip install -r requirements.txt
