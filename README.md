@@ -48,3 +48,5 @@ pip install -r requirements.txt
 
 # 3. Run the application
 streamlit run app_naver.py
+
+#자신이 직접 실행할때는 실행 후 웹 브라우저가 열리면, 사이드바에 본인의 Google API Key와 Naver API Key를 입력해야 정상 작동합니다.
