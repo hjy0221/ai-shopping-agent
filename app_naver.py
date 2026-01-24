@@ -74,7 +74,7 @@ def search_naver_shopping(keyword, display=20):
 
 # --- 4. Gemini: 질문 분석 및 팁 생성 함수 ---
 def analyze_query_with_gemini(user_query):
-    model = genai.GenerativeModel('gemini-2.5-flash')
+    model = genai.GenerativeModel('gemini-2.0-flash-lite')
     prompt = f"""
     당신은 전문 쇼핑 큐레이터입니다. 사용자의 요청을 분석해서 네이버 쇼핑에 검색할 '최적의 키워드' 1개와 '쇼핑 팁'을 알려주세요.
     
