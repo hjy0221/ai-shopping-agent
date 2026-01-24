@@ -10,16 +10,14 @@ LLM(Google Gemini)의 추론 능력과 Naver Shopping API를 결합하여, **Con
 ## 💡 Project Background & Motivation
 
 **"힙한 친구 집들이 선물 추천해줘"**
-커머스 플랫폼(무신사 등)에서 사용자는 종종 구체적인 상품명이 아닌 '상황'이나 '니즈'로 검색합니다. 하지만 기존 검색 엔진은 이러한 자연어 쿼리를 처리하기 어렵습니다.
+커머스 플랫폼에서 사용자는 종종 구체적인 상품명이 아닌 '상황'이나 '니즈'로 검색합니다. 하지만 기존 검색 엔진은 이러한 자연어 쿼리를 처리하기 어렵습니다.
 
 저는 **AI Native Engineering** 관점에서 이 문제를 해결하고자 했습니다.
 1. **Query Expansion:** LLM을 통해 추상적 질문을 구체적 상품 키워드로 변환합니다.
 2. **Reasoning:** 단순 나열이 아닌, '왜 이 상품을 추천하는지'에 대한 설득(Tip)을 제공합니다.
 3. **Responsive UX:** 모바일 트래픽이 높은 커머스 환경을 고려하여, 모바일 최적화 UI를 구현했습니다.
 
-## ⚙️ Architecture & Tech Stack
-
-![Architecture Diagram](https://mermaid.ink/img/pako:eNpVkMtqwzAQRX9FzKpF_AAXuBBCoS202WTRRh9rW4okaOQhjZHS_vcqaQpdjfTweM69M6PBKkWB4vaz_obW4wN9zB5e48d7x8vbr2-4vD_g9fN4R4v9o8KArf6Fw4F-09fO0p_5M33daQZ1i5bWqJp7hXbQ0lp01tJ68wY1rV-QJqgJPaE19A29o5_oI1qhi9A8x8_J4yOQS07qLzSp35A8k0sWSIl0w1wWUqL8XbI5k0zJjXJJS7L4s0iWkvk_i-M0L2XJ5D_2Bw2ST6c)
+## ⚙️ Tech Stack
 
 - **Core Logic:** `Python 3.10+`
 - **LLM:** `Google Gemini Pro (gemini-1.5-flash)` - Query Analysis & Reasoning
