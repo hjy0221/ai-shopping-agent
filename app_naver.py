@@ -6,7 +6,7 @@ import re
 
 # --- 1. 페이지 설정  ---
 st.set_page_config(
-    page_title="네이버 AI 쇼핑 (PC Ver)",
+    page_title="AI 쇼핑",
     layout="wide",
     page_icon="🛍️"
 )
@@ -101,7 +101,7 @@ def clean_html(raw_html):
     return cleantext
 
 # --- 6. 메인 화면 UI ---
-st.title("🛍️ AI 스마트 쇼핑 에이전트")
+st.title("🛍️ AI 스마트")
 st.markdown("##### 무엇이든 물어보세요! Gemini가 분석하고 네이버에서 찾아옵니다.")
 
 # 검색창
