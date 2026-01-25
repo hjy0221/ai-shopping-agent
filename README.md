@@ -1,6 +1,6 @@
-# 🛍️ AI Smart Shopping Agent
+# 🛍️ AI Smart Shopping Interface
 
-> **"사용자의 추상적인 의도를 구체적인 상품 발견으로 연결하는 AI 에이전트"**
+> **"사용자의 추상적인 의도를 구체적인 상품 발견으로 연결하는 AI 인터페이스"**
 
 LLM(Google Gemini)의 추론 능력과 Naver API를 결합하여, **Context-Aware(맥락 인지) 검색**을 구현한 커머스 AI 프로젝트입니다. 기존 키워드 검색의 한계를 넘어, 대화형 인터페이스를 통해 탐색 비용을 줄이는 데 초점을 맞췄습니다.
 
