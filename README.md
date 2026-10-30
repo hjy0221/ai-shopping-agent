@@ -1,6 +1,6 @@
 # AI Smart Shopping Interface
 
-[日本語](#日本語) · [English](#english) · [한국어](#한국어)
+[日本語](https://github.com/hjy0221/ai-shopping-agent#%E6%97%A5%E6%9C%AC%E8%AA%9E) · [English](https://github.com/hjy0221/ai-shopping-agent#english) · [한국어](https://github.com/hjy0221/ai-shopping-agent#%ED%95%9C%EA%B5%AD%EC%96%B4)
 
 [Live Demo](https://ai-shopping-agent-a8vwz9eck8wybppcnlbfbd.streamlit.app/)
 
