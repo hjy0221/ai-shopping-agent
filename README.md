@@ -6,48 +6,22 @@
 
 ## 日本語
 
-Google Gemini の推論と Naver Shopping Search API を組み合わせ、自然言語の要望から商品を探す対話型ショッピングインターフェースです。
+Google Geminiの推論能力とネイバーショッピング検索APIを組み合わせて、自然言語の意図を商品ナビゲーションに結び付けるインタラクティブなショッピングインターフェースです。
 
 ### 主な機能
 
-- 幅広い要望を具体的な検索キーワードと買い物のヒントに変換
-- Naver Shopping の商品画像、価格、購入リンクをカードで表示
-- モバイル対応の対話型検索
-- Streamlit Secrets またはサイドバーで API 認証情報を設定
+- 抽象的なリクエストを具体的な検索キーワードとショッピングのヒントに変換
+- ネイバーショッピングのリアルタイム商品データを画像・価格・購入リンクカードで表示
+- インタラクティブ検索とモバイル対応UI
+- Streamlit Secretsまたはサイドバー入力によるAPIキーの設定
 
-### 技術
+### 技術スタック
 
-Python、Streamlit、Google Gemini、Naver Shopping Search API。
-
-### 実行方法
-
-```bash
-git clone https://github.com/hjy0221/ai-shopping-agent.git
-cd ai-shopping-agent
-pip install -r requirements.txt
-streamlit run app_naver.py
-```
-
-起動後、サイドバーに Google API Key、Naver Client ID、Naver Client Secret を入力します。認証情報をリポジトリにコミットしないでください。
-
-## English
-
-An AI shopping interface that combines Google Gemini reasoning with the Naver Shopping Search API to turn natural-language intent into product discovery.
-
-### Key features
-
-- Converts broad requests into concrete search keywords and shopping tips
-- Presents live Naver Shopping results as cards with images, prices, and purchase links
-- Provides a conversational, mobile-friendly search experience
-- Accepts API credentials through Streamlit Secrets or sidebar inputs
-
-### Tech stack
-
-- Python and Streamlit
+- Python、Streamlit
 - Google Gemini
 - Naver Shopping Search API
 
-### Run locally
+### を実行する
 
 ```bash
 git clone https://github.com/hjy0221/ai-shopping-agent.git
@@ -56,7 +30,35 @@ pip install -r requirements.txt
 streamlit run app_naver.py
 ```
 
-When the app opens, enter your Google API Key, Naver Client ID, and Naver Client Secret in the sidebar. Never commit credentials to the repository.
+アプリが開いたら、サイドバーにGoogle API Key、Naver Client ID、およびNaver Client Secretを入力します。キーをリポジトリにコミットしないでください。
+
+## English
+
+It is an interactive shopping interface that connects natural language intent to product exploration by combining Google Gemini's reasoning capabilities and Naver Shopping Search API.
+
+### Main features
+
+- Convert abstract requests into concrete search keywords and shopping tips
+- Display real-time product data from Naver Shopping as image, price, and purchase link cards
+- Interactive search and mobile-ready UI
+- Set API keys via Streamlit Secrets or sidebar entry
+
+### Technology Stack
+
+- Python, Streamlit
+-Google Gemini
+- Naver Shopping Search API
+
+### Run
+
+```bash
+git clone https://github.com/hjy0221/ai-shopping-agent.git
+cd ai-shopping-agent
+pip install -r requirements.txt
+streamlit run app_naver.py
+```
+
+When the app opens, enter the Google API Key, Naver Client ID, and Naver Client Secret in the sidebar. Do not commit the key to the repository.
 
 ## 한국어
 
