@@ -6,8 +6,6 @@
 
 ## 日本語
 
-[日本語](https://github.com/hjy0221/ai-shopping-agent#%E6%97%A5%E6%9C%AC%E8%AA%9E) · [English](https://github.com/hjy0221/ai-shopping-agent#english) · [한국어](https://github.com/hjy0221/ai-shopping-agent#%ED%95%9C%EA%B5%AD%EC%96%B4)
-
 Google Geminiの推論能力とネイバーショッピング検索APIを組み合わせて、自然言語の意図を商品ナビゲーションに結び付けるインタラクティブなショッピングインターフェースです。
 
 ### 主な機能
@@ -36,8 +34,6 @@ streamlit run app_naver.py
 
 ## English
 
-[日本語](https://github.com/hjy0221/ai-shopping-agent#%E6%97%A5%E6%9C%AC%E8%AA%9E) · [English](https://github.com/hjy0221/ai-shopping-agent#english) · [한국어](https://github.com/hjy0221/ai-shopping-agent#%ED%95%9C%EA%B5%AD%EC%96%B4)
-
 It is an interactive shopping interface that connects natural language intent to product exploration by combining Google Gemini's reasoning capabilities and Naver Shopping Search API.
 
 ### Main features
@@ -65,8 +61,6 @@ streamlit run app_naver.py
 When the app opens, enter the Google API Key, Naver Client ID, and Naver Client Secret in the sidebar. Do not commit the key to the repository.
 
 ## 한국어
-
-[日本語](https://github.com/hjy0221/ai-shopping-agent#%E6%97%A5%E6%9C%AC%E8%AA%9E) · [English](https://github.com/hjy0221/ai-shopping-agent#english) · [한국어](https://github.com/hjy0221/ai-shopping-agent#%ED%95%9C%EA%B5%AD%EC%96%B4)
 
 Google Gemini의 추론 능력과 네이버 쇼핑 검색 API를 결합해 자연어 의도를 상품 탐색으로 연결하는 대화형 쇼핑 인터페이스입니다.
 
